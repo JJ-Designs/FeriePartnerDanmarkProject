@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, useOutletContext } from 'react-router-dom';
 import Loading from '../components/Loading';
-import Select from '../atoms/Select';
+import Select from '../components/Select';
 import EmployeeCard from '../components/EmployeeCard';
 import ErrorMessage from '../components/ErrorMessage';
 import InfoMessage from '../components/InfoMessage';
@@ -93,7 +93,7 @@ function EmployeesPage() {
     };
 
     fetchEmployeeDetails();
-  }, [id, navigate, employees, devSettings]); // Added devSettings as dependency
+  }, [id, navigate, employees, devSettings]);
 
   const renderContent = () => {
     if (error) {
