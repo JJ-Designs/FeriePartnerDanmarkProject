@@ -122,7 +122,7 @@ function EmployeesPage() {
         <h1 className="text-h1 text-slate-800 mb-6 text-center">Employees List</h1>
 
         {/* Select Dropdown */}
-        <div className="max-w-md mx-auto mb-8">
+        <div className="w-full max-w-md mx-auto px-4 md:px-0 mb-8">
           <Select
             value={id || ''}
             onChange={handleEmployeeSelect}

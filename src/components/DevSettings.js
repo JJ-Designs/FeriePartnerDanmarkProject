@@ -12,7 +12,7 @@ function DevSettings({ devSettings, setDevSettings }) {
   }
 
   return (
-    <div className="fixed bottom-0 w-[350px] left-0 right-0 bg-slate-800 text-white p-4 z-50">
+    <div className="fixed bottom-0 sm:w-[350px] w-full left-0 right-0 bg-slate-800 text-white p-4 z-50">
       <button
         onClick={() => setShowDevPanel(!showDevPanel)}
         className="w-full text-left flex items-center justify-between mb-2"
