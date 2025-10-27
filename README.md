@@ -202,3 +202,9 @@ JSON Server automatically handles CORS, but make sure you're making requests to 
 ---
 
 Good luck! 🚀
+
+
+# Jannick Notes:
+https://v2.tailwindcss.com/docs/guides/create-react-app // To install tailwind
+
+Der er meget outdatede packages, ved ikke om jeg skal fokusere på at update dem.
