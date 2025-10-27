@@ -1,4 +1,4 @@
-# Feriepartner Test Project
+# Jannick's Feriepartner Test Project
 
 Welcome to the Feriepartner Test! This project is designed to assess your React skills by building a simple employee directory application.
 
