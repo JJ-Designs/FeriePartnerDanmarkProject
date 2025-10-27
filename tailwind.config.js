@@ -12,6 +12,7 @@ module.exports = {
     extend: {
       colors: {
         linen: '#f3efe8',
+        accent: '#cd0000',
       },
       fontSize: {
         'h1': ['64px', { lineHeight: '1.2', fontWeight: '400' }],
