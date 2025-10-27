@@ -1,7 +1,5 @@
 # Feriepartner Test Project
 
-# Test Commit!
-
 Welcome to the Feriepartner Test! This project is designed to assess your React skills by building a simple employee directory application.
 
 ## Project Overview
