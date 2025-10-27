@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import { Link } from 'react-router-dom';
+import DevSettings, { DEV_CONFIG } from './DevSettings';
 
 function Layout() {
+  const [devSettings, setDevSettings] = useState(DEV_CONFIG);
+
   return (
     <div className="min-h-screen flex flex-col">
       <header className="w-full bg-white py-4">
@@ -17,8 +20,9 @@ function Layout() {
         </Link>
       </header>
       <main className="flex-1">
-        <Outlet />
+        <Outlet context={{ devSettings }} />
       </main>
+      <DevSettings devSettings={devSettings} setDevSettings={setDevSettings} />
     </div>
   );
 }
